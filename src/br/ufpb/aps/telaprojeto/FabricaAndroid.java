@@ -33,7 +33,12 @@ public class FabricaAndroid implements FabricaAbstrata {
 	public void setBotao(Botao botao) {
 		this.botao = botao;
 	}
-
+	@Override
+	public String toString() {
+		return "FabricaAndroid [janela=" + janela + ", menu=" + menu + ", botao=" + botao + "]";
+	}
+	
+	
 	
 	
 }

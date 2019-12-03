@@ -33,7 +33,11 @@ public class FabricaWindows implements FabricaAbstrata {
 	public void setBotao(Botao botao) {
 		this.botao = botao;
 	}
-
+	@Override
+	public String toString() {
+		return "FabricaWindows [janela=" + janela + ", menu=" + menu + ", botao=" + botao + "]";
+	}
+	
 	
 	
 }

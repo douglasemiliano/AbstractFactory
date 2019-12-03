@@ -12,9 +12,7 @@ class TesteTelaProjeto {
 		tela.setFabrica(new FabricaWindows());
 		tela.montar();
 		tela.desenhar();
-		assertEquals(		" Janela Windows{"+ 
-				  			" MenuWindows,"     + 
-				  			" BotãoWindows}", tela.desenhar()); 
+		assertEquals(		"Janela Windows{Menu Windows, Botão Windows}", tela.desenhar()); 
 		
 	}
 

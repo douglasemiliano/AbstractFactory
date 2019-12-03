@@ -3,7 +3,15 @@ package br.ufpb.aps.telaprojeto;
 public class MenuWindows implements Menu {
 
 	public String desenhar() {
-		return null;
+		String  status = "Menu Windows";
+		return status;
 	}
+	
+	@Override
+	public String toString() {
+		return this.desenhar();
+	}
+	
+	
 
 }
